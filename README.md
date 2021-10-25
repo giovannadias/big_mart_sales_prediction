@@ -23,8 +23,17 @@ Variable	Description:
 - Item_Outlet_Sales:	Sales of the product in the particular store. This is the outcome variable to be predicted.
 
 ## 🔍 Data Description
+I started by making a data description in order to better understand the data I was going to work with. This phase is important so that we can check if there is any need to change the data columns names of if there is empty values in our dataframe and how we can figure that out.
+In this case, there was some empty values in the 'item_weight' and 'outlet_size' columns. In each of them, I used a differente method to substitute the N/A values.
+- Item_weight N/A values where replaced by the product's mean weight.
+- Outlet_size N/A values where replaced by the value for outlets with similar caracteristics as 'Outlet_Location_Type' and 'Outlet_Type'. 
+I also normalized the values in the 'item_fat_content' column so that it could only be rather 'Low Fat' or 'Regular', without no other type of writing.
+After that, I made some quick analysis to get some vision about the data behavior.
+![item_outlet_displot](https://user-images.githubusercontent.com/82069205/138780213-c33e10d0-280e-43dc-8f6b-ac787782fc2c.png)
+
 
 ## ⚙ Feature Engineering
+
 
 ## 📊 Exploratory Data Analysis (EDA)
 
