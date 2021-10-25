@@ -29,7 +29,8 @@ In this case, there was some empty values in the 'item_weight' and 'outlet_size'
 - Outlet_size N/A values where replaced by the value for outlets with similar caracteristics as 'Outlet_Location_Type' and 'Outlet_Type'. 
 I also normalized the values in the 'item_fat_content' column so that it could only be rather 'Low Fat' or 'Regular', without no other type of writing.
 After that, I made some quick analysis to get some vision about the data behavior.
-![item_outlet_displot](https://user-images.githubusercontent.com/82069205/138780213-c33e10d0-280e-43dc-8f6b-ac787782fc2c.png)
+![item_outlet_displot](https://user-images.githubusercontent.com/82069205/138780564-cfe100f9-d299-422a-ae6a-dfd705cc4359.png)
+
 
 
 ## ⚙ Feature Engineering
