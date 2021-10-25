@@ -1,12 +1,11 @@
 # Big Mart Sales Prediction 🛒
-## Sales Prediction for Big Mart Outlets
 
-### 💡 Problem Statement
+## 💡 Problem Statement
 The data scientists at BigMart have collected 2013 sales data for 1559 products across 10 stores in different cities. Also, certain attributes of each product and store have been defined. The aim is to build a predictive model and predict the sales of each product at a particular outlet.
 
 Using this model, BigMart will try to understand the properties of products and outlets which play a key role in increasing sales.
 
-### 📚 Data Dictionary
+## 📚 Data Dictionary
 We have train (8523) and test (5681) data set, train data set has both input and output variable(s). The goal was to predict the sales for test data set.
 
 Variable	Description:
@@ -23,20 +22,20 @@ Variable	Description:
 - Outlet_Type:	Whether the outlet is just a grocery store or some sort of supermarket
 - Item_Outlet_Sales:	Sales of the product in the particular store. This is the outcome variable to be predicted.
 
-### 🔍 Data Description
+## 🔍 Data Description
 
-### ⚙ Feature Engineering
+## ⚙ Feature Engineering
 
-### 📊 Exploratory Data Analysis (EDA)
+## 📊 Exploratory Data Analysis (EDA)
 
-### 📍 Data Preparation
+## 📍 Data Preparation
 
-### 🎲 Feature Selection
+## 🎲 Feature Selection
 
-### 🤖 Machine Learning Models
+## 🤖 Machine Learning Models
 
-### 🔦 Hyperparameters Fine Tuning
+## 🔦 Hyperparameters Fine Tuning
 
-### ⁉ Error Interpretation
+## ⁉ Error Interpretation
 
-### 🛠 Deploy Model to Production
+## 🛠 Deploy Model to Production
