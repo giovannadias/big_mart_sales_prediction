@@ -95,6 +95,7 @@ The MAE (Mean Absolute Error) tells about how much the predict data is wrong com
 The final model got some big MAPE values - some of witch got an error rate of 700%. Since this was the first circle for the models implementation, this would be a major issue to be fixed in the next rounds of tests. Maybe getting more features would help to get a smaller error rate.
 
 The final total business performance for this model prediction's was: 
+
 ![total_performance](https://user-images.githubusercontent.com/82069205/138792955-8d546041-4f47-4324-8c5c-8dc322bb813e.png)
 
 The final model performance can be analysed by these 4 graphics, showing the differents between prediction and real values, error rate for each outlet, error density and predictions related with error - for residual analysis. 
